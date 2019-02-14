@@ -43,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void getData() {
         Retrofit retrofitClient = new Retrofit.Builder()
-                .baseUrl("https://jsonplaceholder.typicode.com/")
+                .baseUrl("https://betri.esp.br/api/")
                 .addConverterFactory(GsonConverterFactory.create())
                 .build();
 

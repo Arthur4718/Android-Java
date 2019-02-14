@@ -9,7 +9,7 @@ import retrofit2.http.GET;
 
 public interface JsonPlaceHolderApi {
 
-    @GET("posts") // Relative url, the absolute its declared elsewhere
+    @GET("v1/match?p1=1046&p2=1079") // Relative url, the absolute its declared elsewhere
     Call<List<PostDataModel>> getPosts();
 
 
